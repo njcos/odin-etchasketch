@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    pardding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+.cellStyle {
+    flex: 1;
+    /* background-color: rgb(236, 236, 236) */
+}
+
+.hover {
+    background-color: gray;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    width: 100vw;
+
+}
