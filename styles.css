@@ -7,14 +7,13 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
 
 
 }
 .cellStyle {
     flex: 1;
-    /* background-color: rgb(236, 236, 236) */
-}
+}   
 
 .hover {
     background-color: gray;
@@ -25,4 +24,27 @@ body{
     flex: 1;
     width: 100vw;
 
+}
+
+.buttonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    gap: 10;
+
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: .2em;
+    background-color: rgb(40, 80, 118);
+    color: white;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgb(23, 45, 66);
+    transition: all .5s
 }
